@@ -45,3 +45,10 @@ Georgia, serif — all fonts. No Google Fonts.
 - When we make a new decision, I'll say "update project instructions" — give me
   updated versions of both this file and CLAUDE.md reflecting the change.
 - Every prompt updates CLAUDE.md and chat-context.md in same commit if any spec or decision changed
+
+## Important Clarifications
+- chat-context.md is the source for these project instructions — update project 
+  instructions manually after each merge that changes chat-context.md
+- CLAUDE.md is for Claude Code (CLI) only — not relevant to chat context
+- This is a Claude.ai Project — instructions persist across chats automatically, 
+  no need to paste context manually
