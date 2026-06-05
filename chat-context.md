@@ -41,3 +41,4 @@ Georgia, serif — all fonts. No Google Fonts.
 - Confirm scope before starting any large task.
 - When we make a new decision, I'll say "update project instructions" — give me
   updated versions of both this file and CLAUDE.md reflecting the change.
+- Every prompt updates CLAUDE.md and chat-context.md in same commit if any spec or decision changed
