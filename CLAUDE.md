@@ -12,10 +12,12 @@ Next: Content refinement, Webflow migration, performance pass.
 ---
 
 ## Build Log
-- 2025-06-05 | `main` | Initial site built — index, about, services, contact + styles.css
+- 2025 | `main` | Initial site built — index, about, services, contact + styles.css
 - 2025 | `style/design-system` | Full CSS design system generated (variables, components, animations)
 - 2025-06-05 | `style/visual-overhaul` | Georgia font, tiffany-tinted bg, colour hierarchy, butterfly animation, visual polish
 - 2026-06-05 | `chore/project-instructions-update` | Added chat-context.md, updated CLAUDE.md with Current Phase, Build Log, Git & PR Workflow, PR format
+- 2026-06-05 | `chore/standardise-instruction-updates` | Standardised instruction update process across CLAUDE.md and chat-context.md
+- 2026-06-05 | `chore/gh-cli-pr-automation` | Automated PR creation via GitHub CLI, updated settings.json and project instructions
 
 ---
 
@@ -33,24 +35,18 @@ Every task must follow this flow — no exceptions:
 2. **Commit** — one focused commit per logical change. Message format:
    `type(scope): short description` e.g. `style(hero): replace gradient with tiffany-tinted bg`
 
-3. **PR** — open a pull request with these four fields, each as a labelled code block:
+3. **PR** — run:
    ```
-   Branch: chore/example-name
+   gh pr create --title '[commit title]' --body '- file.ext: what changed
+   - file.ext: what changed' --base main
    ```
-   ```
-   Title: chore(scope): short description
-   ```
-   ```
-   Description:
-   - file.ext: what changed
-   - file.ext: what changed
-   ```
-   Target branch: `main`
 
-4. **Update Build Log** — add entry to `## Build Log` in CLAUDE.md:
+4. **Update CLAUDE.md and chat-context.md** — in the same commit if any spec or decision changed. Standard on every prompt.
+
+5. **Update Build Log** — add entry to `## Build Log` in CLAUDE.md:
    `- YYYY-MM-DD | \`branch-name\` | Short summary of what changed`
 
-5. **Never commit directly to main.**
+6. **Never commit directly to main.**
 
 ---
 

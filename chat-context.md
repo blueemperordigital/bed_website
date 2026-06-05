@@ -33,6 +33,7 @@ Georgia, serif — all fonts. No Google Fonts.
 - .claude/settings.json has pre-approved tools (no rm)
 - CLAUDE.md in project root for Claude Code instructions
 - Every Claude Code task = new branch + PR (feat/ style/ fix/ content/ chore/)
+- PRs created automatically via gh pr create — GitHub CLI installed and authenticated
 
 ## How to work with me
 - Token-efficient responses. Code only, no explanations unless I ask.
@@ -41,3 +42,4 @@ Georgia, serif — all fonts. No Google Fonts.
 - Confirm scope before starting any large task.
 - When we make a new decision, I'll say "update project instructions" — give me
   updated versions of both this file and CLAUDE.md reflecting the change.
+- Every prompt updates CLAUDE.md and chat-context.md in same commit if any spec or decision changed
