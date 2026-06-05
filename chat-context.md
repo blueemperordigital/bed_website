@@ -6,6 +6,7 @@ Paste this at the start of any new Claude.ai chat for this project.
 
 ## Project
 Boutique digital marketing agency website. Owner: Sherron Gibbs. Location: Homestead, FL.
+Project root: `C:\Users\sherr\Desktop\Blue Emperor Digital\Blue Emperor Digital\Website\bed_website`
 Files: index.html, about.html, services.html, contact.html, assets/css/styles.css
 
 ## Current Phase
@@ -34,6 +35,7 @@ Georgia, serif — all fonts. No Google Fonts.
 - CLAUDE.md in project root for Claude Code instructions
 - Every Claude Code task = new branch + PR (feat/ style/ fix/ content/ chore/)
 - PRs created automatically via gh pr create — GitHub CLI installed and authenticated
+- gh CLI PATH issue resolved — Claude Code finds gh correctly. No reinstall needed if gh pr create works.
 
 ## How to work with me
 - Token-efficient responses. Code only, no explanations unless I ask.
@@ -43,3 +45,10 @@ Georgia, serif — all fonts. No Google Fonts.
 - When we make a new decision, I'll say "update project instructions" — give me
   updated versions of both this file and CLAUDE.md reflecting the change.
 - Every prompt updates CLAUDE.md and chat-context.md in same commit if any spec or decision changed
+
+## Important Clarifications
+- chat-context.md is the source for these project instructions — update project 
+  instructions manually after each merge that changes chat-context.md
+- CLAUDE.md is for Claude Code (CLI) only — not relevant to chat context
+- This is a Claude.ai Project — instructions persist across chats automatically, 
+  no need to paste context manually
