@@ -1,6 +1,7 @@
 # Blue Emperor Digital LLC — Project Instructions
 
 Owner: Sherron Gibbs · Location: Homestead, FL · Serving clients locally & nationally
+Project root: `C:\Users\sherr\Desktop\Blue Emperor Digital\Blue Emperor Digital\Website\bed_website`
 
 ---
 
@@ -18,6 +19,7 @@ Next: Content refinement, Webflow migration, performance pass.
 - 2026-06-05 | `chore/project-instructions-update` | Added chat-context.md, updated CLAUDE.md with Current Phase, Build Log, Git & PR Workflow, PR format
 - 2026-06-05 | `chore/standardise-instruction-updates` | Standardised instruction update process across CLAUDE.md and chat-context.md
 - 2026-06-05 | `chore/gh-cli-pr-automation` | Automated PR creation via GitHub CLI, updated settings.json and project instructions
+- 2026-06-05 | `chore/fix-project-path` | Corrected project root path, noted gh CLI resolution in chat-context.md
 
 ---
 

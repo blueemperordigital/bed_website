@@ -6,6 +6,7 @@ Paste this at the start of any new Claude.ai chat for this project.
 
 ## Project
 Boutique digital marketing agency website. Owner: Sherron Gibbs. Location: Homestead, FL.
+Project root: `C:\Users\sherr\Desktop\Blue Emperor Digital\Blue Emperor Digital\Website\bed_website`
 Files: index.html, about.html, services.html, contact.html, assets/css/styles.css
 
 ## Current Phase
@@ -34,6 +35,7 @@ Georgia, serif — all fonts. No Google Fonts.
 - CLAUDE.md in project root for Claude Code instructions
 - Every Claude Code task = new branch + PR (feat/ style/ fix/ content/ chore/)
 - PRs created automatically via gh pr create — GitHub CLI installed and authenticated
+- gh CLI PATH issue resolved — Claude Code finds gh correctly. No reinstall needed if gh pr create works.
 
 ## How to work with me
 - Token-efficient responses. Code only, no explanations unless I ask.
