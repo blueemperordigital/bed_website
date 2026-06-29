@@ -20,6 +20,7 @@ Next: Content refinement, Webflow migration, performance pass.
 - 2026-06-05 | `chore/standardise-instruction-updates` | Standardised instruction update process across CLAUDE.md and chat-context.md
 - 2026-06-05 | `chore/gh-cli-pr-automation` | Automated PR creation via GitHub CLI, updated settings.json and project instructions
 - 2026-06-05 | `chore/fix-project-path` | Corrected project root path, noted gh CLI resolution in chat-context.md
+- 2026-06-28 | `chore/align-chat-context-with-blueprint` | Aligned chat-context with launch blueprint — Webflow hybrid direction, 9 services, Phase 1 status
 
 ---
 
